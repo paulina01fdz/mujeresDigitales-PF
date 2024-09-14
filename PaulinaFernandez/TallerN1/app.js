@@ -46,7 +46,16 @@ function addCheckBtn(li, tarea) {
         li.classList.toggle("completado");
 
         // Actualiza la lista de tareas en el array
-        tareas = tareas.map(t => (t === tarea ? {...t, completado: tarea.completado} : t));
+        tareas = tareas.map((t) =>{
+            if (t === tarea) {
+                return {
+                    texto: t.texto,
+                    completado: tarea.completado
+                };
+            } else {
+                return t;
+            }
+        });
     });
 
     return checkBtn;

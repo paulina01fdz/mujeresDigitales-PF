@@ -1,0 +1,34 @@
+.product-details {
+    border: 2px solid #e6b5b5;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-details img {
+    width: 310px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.product-details h3 {
+    font-size: 22px;
+    margin: 10px 0;
+}
+
+.product-details p {
+    font-size: 16px;
+}
+
+.product-details button {
+    padding: 15px 25px;
+    background-color: #2a6337;
+    color: rgb(240, 234, 234);
+    border: none;
+    cursor: pointer;
+}
+
+.product-details button:hover {
+    background-color: #2d703c;
+}

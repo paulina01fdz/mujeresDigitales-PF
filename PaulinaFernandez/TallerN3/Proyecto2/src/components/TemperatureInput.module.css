@@ -1,0 +1,32 @@
+.inputContainer {
+    margin: 20px 0;
+    text-align: left;
+}
+
+.label {
+    font-size: 1.2em;
+    color: #555;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.select {
+    padding: 8px;
+    margin-left: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.temperatureInput {
+    margin-top: 15px;
+}
+
+.inputField {
+    padding: 10px;
+    font-size: 1em;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}

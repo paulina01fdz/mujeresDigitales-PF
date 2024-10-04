@@ -1,0 +1,19 @@
+.resultContainer {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.convertedTemp {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.boilingPoint {
+    color: green;
+    font-weight: bold;
+}
+
+.notBoilingPoint {
+    color: rgb(131, 41, 41);
+    font-weight: bold;
+}

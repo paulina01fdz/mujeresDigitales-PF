@@ -1,0 +1,23 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.appContainer {
+  padding: 40px;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  max-width: 450px;
+  margin: 40px auto;
+  box-shadow: 0 4px 8px rgba(146, 123, 123, 0.1);
+}
+
+.title {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
